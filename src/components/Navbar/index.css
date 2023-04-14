@@ -1,0 +1,129 @@
+/* Write your CSS here */
+
+.navbar-bg-main-container {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-bg-main-container {
+    padding: 10px;
+  }
+}
+
+.navbar-items-container {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-website-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 2px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-website-logo {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+.list-items-container {
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.link-item-navbar-home {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .link-item-navbar-home {
+    margin-right: 20px;
+  }
+}
+
+.home-navbar-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .home-navbar-text {
+    font-size: 17px;
+  }
+}
+
+.link-item-navbar-about {
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .link-item-navbar-about {
+    margin-left: 20px;
+  }
+}
+
+.about-navbar-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-navbar-text {
+    font-size: 17px;
+  }
+}
+
+.theme-image-button-navbar {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.theme-image-navbar {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .theme-image-navbar {
+    height: 35px;
+    width: 35px;
+  }
+}
+
+.nav-dark-bg {
+  background-color: #333333;
+  border: none;
+}
+
+.nav-light-bg {
+  background-color: #ffffff;
+  border-bottom: 2px solid #64748b;
+}
+
+.list-items-color-dark-nav {
+  color: #ffffff;
+}
+
+.list-items-color-light-nav {
+  color: #1e293b;
+}
